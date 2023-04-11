@@ -1,4 +1,3 @@
-
 name: Deploy Docs
 
 on:
@@ -8,7 +7,7 @@ on:
       - master
 
 jobs:
-  deploy-gh-pages:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
