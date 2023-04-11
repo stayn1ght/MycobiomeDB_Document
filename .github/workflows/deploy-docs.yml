@@ -18,14 +18,14 @@ jobs:
           # submodules: true
 
       - name: Checkout
-      uses: actions/checkout@master
+        uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: stayn1ght/mycgutdb_document@master
-      env:
-        ACCESS_TOKEN: ${{ gmdb114514.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 }}
-        TARGET_REPO: stayn1ght/mycgutdb_document
-        TARGET_BRANCH: master
-        BUILD_SCRIPT: pnpm && pnpm docs:build
-        BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://mycgutdb.document.com
+      - name: vuepress-deploy
+        uses: stayn1ght/mycgutdb_document@master
+        env:
+          ACCESS_TOKEN: ${{ gmdb114514.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 }}
+          TARGET_REPO: stayn1ght/mycgutdb_document
+          TARGET_BRANCH: master
+          BUILD_SCRIPT: pnpm && pnpm docs:build
+          BUILD_DIR: docs/.vuepress/dist
+          CNAME: https://mycgutdb.document.com
