@@ -2,13 +2,13 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/mycgutdb_document/",
 
   locales: {
     "/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "Mycgutdb Document",
+      description: "A docs demo for Mycgutdb",
     },
     "/zh/": {
       lang: "zh-CN",

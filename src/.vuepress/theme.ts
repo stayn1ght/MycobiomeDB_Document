@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "Mingyuw",
-    url: "https://mrhope.site",
+    url: "https://google.com",
   },
 
   iconAssets: "iconfont",
@@ -29,7 +29,8 @@ export default hopeTheme({
       footer: "Default footer",
 
       displayFooter: true,
-
+      
+      editLink: false,
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
@@ -60,6 +61,8 @@ export default hopeTheme({
     config: {
       "/demo/encrypt.html": ["1234"],
       "/zh/demo/encrypt.html": ["1234"],
+      "/methods/figures.html": ["114514"],
+      "/usage/figures.html": ["114514"],
     },
   },
 

@@ -1,111 +1,112 @@
 ---
 home: true
 icon: home
-title: Project home
+title: Home
 heroImage: /logo.svg
-heroText: Project name
+heroText: "MycgutDB: A database for the gut microbiome"
 tagline: You can place the description of the project here.
 actions:
   - text: How to Use 💡
     link: /demo/
-    type: primary
-
+    
   - text: Docs
     link: /guide/
 
+  - text: How to Use MycgutDB 🥵
+    link: /usage/figures
+    type: primary
+
+  - text: Materials and Methods 💥
+    link: /methods/
+    
 
 features:
-  - title: Markdown Enhance
-    icon: markdown
-    details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
-    link: https://theme-hope.vuejs.press/guide/markdown/
+  - title: Main features
+    details: overview of our website
+    link: /features/websiteoverview
 
-  - title: Slide page
-    icon: slides
-    details: Adding slide pages to display things you like
-    link: https://theme-hope.vuejs.press/guide/layout/slides.html
+  # - title: Markdown Enhance
+  #   icon: markdown
+  #   details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
+  #   link: https://theme-hope.vuejs.press/guide/markdown/
 
-  - title: Layout enhancement
-    icon: layout
-    details: Adding breadcrumb, footer, improved navbar, improved page nav and etc.
-    link: https://theme-hope.vuejs.press/guide/layout/
+  - title: disease markers
+    details: disease markers centric page
+    link: /features/diseasemarkerpages
 
-  - title: Pageviews and comments
-    icon: comment
-    details: Start pageview statistics and comment support with Waline
-    link: https://theme-hope.vuejs.press/guide/feature/comment.html
+  - title: Capture the full dynamics of human gut microbes
+    details: Capture the full dynamics of the microbes living in the human gut
+    link: https://gmrepo.humangut.info/phenotypes
 
-  - title: Article information
-    icon: info
-    details: Add author, writing date, reading time, word count and other information to your article
-    link: https://theme-hope.vuejs.press/guide/feature/page-info.html
-
-  - title: Blog support
-    icon: blog
-    details: Listing your articles with their dates, tags and categories with some awesome layouts
-    link: https://theme-hope.vuejs.press/guide/blog/
-
-  - title: Custom theme color
-    icon: palette
-    details: Supports custom theme colors and allows users to switch between preset theme colors
-    link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
-
-  - title: Dark Mode
-    icon: contrast
-    details: Switch between light and dark modes freely
-    link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
-
-  - title: Full A11y support
-    icon: support
-    details: Full support of accessibility in your site
-    link: https://theme-hope.vuejs.press/guide/interface/accessibility.html
-
-  - title: Article Encryption
-    icon: lock
-    details: Encrypt you articles based on page links, so that only the one you want could see them
-    link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
-
-  - title: Copy button
-    icon: copy
-    details: Copy codes with one click in code blocks
-    link: https://theme-hope.vuejs.press/guide/feature/copy-code.html
-
-  - title: Image preview
-    icon: pic
-    details: Support viewing, zooming, sharing your page images like a gallery
-    link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
-
-  - title: SEO enhancement
-    icon: config
-    details: Optimize pages for search engines
-    link: https://theme-hope.vuejs.press/guide/advanced/seo.html
-
-  - title: Sitemap
-    icon: sitemap
-    details: Generate a Sitemap for your site
-    link: https://theme-hope.vuejs.press/guide/advanced/sitemap.html
-
-  - title: Feed support
-    icon: rss
-    details: Generate feed to allow users to subscribe it
-    link: https://theme-hope.vuejs.press/guide/advanced/feed.html
-
-  - title: PWA support
-    icon: mobile
-    details: Make your site more like an APP
-    link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
-
-  - title: More new features
-    icon: more
-    details: Including icon support, fullscreen button, etc.
-    link: https://theme-hope.vuejs.press/guide/feature/
+  - title: Emphasize on data quality and re-usability
+    details: we emphasize on **data quality** and **re-usability** (i.e., availability of the host meta-data).
+    link: /methods/dataprocessing
 
 copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
-This is an example of a project homepage. You can place your main content here.
+# Welcome to <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
 
-To use this layout, you need to set `home: true` in the page front matter.
+<b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
+ is a curated database of human gut metagenomes. Please choose a topic on the left navigation panel to continue.
 
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
+## Citation
+
+Please cite our latest publication if you find this resource useful:
+
+[Dai, D. *et al.* "GMrepo v2: a curated human gut microbiome database with special focus on disease markers and cross-dataset comparison". *Nucleic Acids Res* (2022). Volume 50, Issue D1, Pages D777–D784.](https://doi.org/10.1093/nar/gkab1019){:target="_blank"}.
+
+
+
+## What's new
+
+### Nov 25, 2020
+
+Added new pages:
+
+* [curated projects](https://gmrepo.humangut.info/data/curatedprojects),
+* [phenotype comparisons](https://gmrepo.humangut.info/phenotypes/comparisons), and
+* [marker taxa](https://gmrepo.humangut.info/taxon/markertaxa).
+
+## Aims and features of <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
+
+### Capture the full dynamics of human gut microbes
+
+With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>,
+we aim to capture the full dynamics of the microbes living in the human gut, including their
+
+* abundances and prevalence,
+* associations with [human health and diseases](https://gmrepo.humangut.info/phenotypes) , and
+* co-occurrences,
+
+all of which can be further stratified by using manually curated meta-data:
+
+* population (country),
+* gender,
+* age,
+* body mass index, and
+* many other available meta data.
+
+### Emphasize on data quality and re-usability
+
+With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>,
+we emphasize on **data quality** and **re-usability** (i.e., availability of the host meta-data).
+We thus:
+
+* manually extracted and curated relevant meta-data (most of the time with difficulties) from public databases and related publications;
+* consistently re-annotated all data using state-of-the-art methods (see the [Materials and methods](methods/dataprocessing.md) page for details);
+* applied vigorous quality control (QC) methods and stringent criteria to the data, in order to include only high quality data, but nonetheless kept the meta-data of the samples and runs in our database.
+
+### Make relevant information easier to find
+
+In order to further facilitate users to find data of interests, we equipped <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> with
+[a graphical query builder (data selector)](https://gmrepo.humangut.info/home) to help users to create complex and flexible queries with a few clicks. So far the data selector allows users to filter samples and runs by related technical meta data such as <code>experiment type (16S or Metagenomics)</code>, <code>number of sequenced reads</code>, and host- related meta data, including related phenotype (<code>disease or health</code>), <code>age</code>, <code>sex</code>, and <code>BMI (body mass index)</code>. More filters will be added in the future.
+For example, the screenshot below allows users to search for samples (runs) that:
+
+* were taken from healthy individuals with BMI (body mass index) over 25, <code>AND</code>
+* were sequenced by either 16S <code>OR</code> metagenomics.
+
+![](images/index/query_builder_example.png)
+
+See [Use the graphic data selector](usage/graphicquirybuilder.md) for details and more examples.

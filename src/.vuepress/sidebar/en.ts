@@ -16,6 +16,25 @@ export const enSidebar = sidebar({
       prefix: "guide/",
       children: "structure",
     },
-    "slides",
+    {
+      text: "Usage",
+      prefix: "usage/",
+      icon: "config",
+      children: [
+        "figures",
+        "databaseoverview",
+      ]
+    },
+    {
+      text: "Material and Methods",
+      icon: "ability",
+      prefix: "methods/",
+      children: [
+        "figures",
+        "dataacquisition",
+        "dataprocessing",
+        "indepthanalysis",
+      ]
+    },
   ],
 });
