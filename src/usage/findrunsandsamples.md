@@ -1,3 +1,7 @@
+---
+shortTitle: Find a run/sample of insterests
+order: 4
+---
 # find a run (sample) or runs (samples) of interest
 
 There are at least two ways to find a project or projects of interest.
@@ -8,13 +12,13 @@ Please [consult here](graphicquirybuilder.md) for the documentation.
 
 ## 2. Use the global search widget
 
-A global search widget is available on the navigation bar next to the <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> logo:
+A global search widget is available on the navigation bar next to the <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b> logo:
 
-![](images/finder/globalsearchwidget.png){ width=60%; }
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/finder/globalsearchwidget.png){ width=60%; }
 
 Possible hits will be shown automatically in a dropdown list when users enter three and more characters:
 
-![](images/finder/findrun.png){ width=40%; }
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/finder/findrun.png){ width=40%; }
 
 Users can then select any item from the list, and to the `run/sample` of interest. 
 

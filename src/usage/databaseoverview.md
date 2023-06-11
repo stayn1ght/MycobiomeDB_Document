@@ -1,9 +1,13 @@
+---
+shortTitle: Database overview
+order: 1
+---
 # Database overview and statistics
 
 ## Projects and runs
 
 So far, 
-<b><span style="color:darkblue">My</span><span style="color:red">cGut</span><span style="color:forestgreen">DB</span></b> contains:
+<b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>
 
 * Meta data for in total <code>71,642</code> runs (samples), belonging to <code>353</code> projects.
 * Raw data have been processed for in total <code>53,700</code> runs (samples), belonging to <code>282</code> projects.

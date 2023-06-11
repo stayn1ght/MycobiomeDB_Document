@@ -1,8 +1,11 @@
+---
+order: 2
+---
 # Use the graphic data selector
 
-<b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> is equipped with **two graphical data selectors** to allow users to quickly build complex queries to find **projects** and **runs** of interests; see below:
+<b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b> is equipped with **two graphical data selectors** to allow users to quickly build complex queries to find **projects** and **runs** of interests; see below:
 
-![](../images/index/query_builder_example.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/blob/main/gmrepodocumentation/site/images/index/query_builder_example.png)
 
 The selectors are a bit difficult to start with, so we provided six examples. Users can click one of the links **<code>Examples: #1, #2, #3</code>** above the selectors to view:
 
@@ -10,7 +13,7 @@ The selectors are a bit difficult to start with, so we provided six examples. Us
 * the selector setup, and 
 * query logic in SQL command string: <code>"disease = 'D006262' AND BMI BETWEEN 18.5 AND 24.9"</code>.
 
-![](images/dataselectors/query_number1.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/query_number1.png)
 
 
 ## Build complex queries using the data selector
@@ -33,25 +36,25 @@ For example, to search for samples that were taken from <code>healthy individual
 
 The resulting graphical selector and the query logic are shown below:
 
-![](images/dataselectors/qbexample1.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample1.png)
 
 ## Examples
 
 !!! example "get runs with colonic diseases"
-    ![](images/dataselectors/qbexample2.png)
+    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample2.png)
 
 !!! example "get runs from American with no recent antibiotic usage"
-    ![](images/dataselectors/qbexample3.png)
+    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample3.png)
 
 Data selector examples for projects:
 
 !!! example "get projects contain both CRC patients and healthy controls"
-    ![](images/dataselectors/qbprj1.png)
+    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj1.png)
 
 !!! example "get projects contain both Bipolar patients and healthy controls, with no failed runs"
-    ![](images/dataselectors/qbprj2.png)
+    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj2.png)
 
 !!! example "get projects contain more than 200 Diarrhea patients"
-    ![](images/dataselectors/qbprj3.png)
+    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj3.png)
 
 More examples will be added in the future.

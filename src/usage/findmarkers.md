@@ -1,3 +1,7 @@
+---
+shortTitle: Find a disease marker
+order: 6
+---
 # Find a marker species/genus of interests
 
 There are at least two ways to find a marker taxa of interest.
@@ -6,11 +10,11 @@ There are at least two ways to find a marker taxa of interest.
 
 A global search widget is available on the navigation bar next to the <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> logo:
 
-![](images/finder/globalsearchwidget.png){ width=60%; }
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/finder/globalsearchwidget.png){ width=60%; }
 
 Possible hits will be shown automatically in a dropdown list when users enter three and more characters:
 
-![](images/finder/findmarker.png){ width=40%; }
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/finder/findmarker.png){ width=40%; }
 
 Those marked as `marker taxon` at the end are `marker taxa`. Users can then select any item from the list, and to the `marker taxon` of interest. 
 
@@ -22,7 +26,7 @@ Those marked as `marker taxon` at the end are `marker taxa`. Users can then sele
 
 Users can first go to the [Marker taxa :octicons-link-16:](https://gmrepo.humangut.info/taxon/markertaxa), and search in the <code>Species</code> or <code>Genus</code> tables:
 
-![](images/finder/findmarkertaxon.png){ width=100% }
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/finder/findmarkertaxon.png){ width=100% }
 
 !!! tip
     Valid search term include:

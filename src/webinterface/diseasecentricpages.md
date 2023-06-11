@@ -1,14 +1,17 @@
+---
+order: 2
+---
 # Disease centric pages
 
 There are in total **three** types of disease centric web pages :fontawesome-solid-book-open: that are designed to present disease related information, which are detailed below:
 
-## :fontawesome-solid-book-open: [Phenotypes (diseases and health) page :octicons-link-16:](https://gmrepo.humangut.info/phenotypes)
+## :fontawesome-solid-book-open: [Phenotypes (diseases and health) page](https://gmrepo.humangut.info/phenotypes)
 
 This page lists all diseases that have been assocaited with the alterations of gut microbes.
 
 Its main contents is a table that lists statistics of 131 diseases collected in our database, see the screenshot below:
 
-![](images/diseasecentricpages/phenotypes_table.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotypes_table.png)
 
 In addition to the data table, several control widgets are available on the top of the table (marked by the red box). Users can use them to find information in the table that they are interested in. 
 
@@ -29,7 +32,7 @@ Click any one of the disease names, users will be redirected to the correspondin
 
 This page is used to decribe in details of gut microbiota data associated with a specific disease. 
 
-This page typically consists of four sections. Below the [Crohn Disease :octicons-link-16:](https://gmrepo.humangut.info/phenotypes/D003424) page is used as an example.
+This page typically consists of four sections. Below the [Crohn Disease](https://gmrepo.humangut.info/phenotypes/D003424) page is used as an example.
 
 ### 1. Overview of <code>Crohn Disease</code> associated gut microbiota data
 
@@ -38,7 +41,7 @@ This section first gives a brief description of the disease (or health) accordin
 * number of related projects;
 * number of total runs in the related projects;
 * number of processed runs, whose raw sequence data have been downloaded, quality checked and analyzed;
-* number of valid runs that passed our [quality control procedures :octicons-link-16:](../methods/dataprocessing.md#quality-control).
+* number of valid runs that passed our [quality control procedures](../methods/dataprocessing.md#quality-control).
 
 ### 2. Overview of disease markers
 
@@ -49,7 +52,7 @@ This section uses a table to list the numbers of marker taxa identified between:
 
 See the screenshot below:
 
-![](images/diseasecentricpages/disease_marker_table_crohn_disease.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/disease_marker_table_crohn_disease.png)
 
 !!! note
     * 'Control Groups' and 'Health' are two MeSH IDs commonly used to describe control samples. The main difference between the two is that 'Health' refers to individuals who do not have any detectable dieases, while 'Control Groups' refers to those who do not have the disease of interest, for example 'Crohn Disease' in this case. Thus, in this case the 'Control Groups' also refers to the non-'Crohn Disease' group.
@@ -68,13 +71,13 @@ Each table is equipped with a set of control widgets allowing users to search th
 
 See the screenshot below:
 
-![](images/diseasecentricpages/phenotypedetails_page_tables.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotypedetails_page_tables.png)
 
 ### 4. a dot plot summarises taxon abundances as a function of prevalence
 
 As shown below:
 
-![](images/diseasecentricpages/phenotype_details_dotplot.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotype_details_dotplot.png)
 
 Each dot represents a taxon (species or genus).
 
@@ -86,7 +89,7 @@ Each dot represents a taxon (species or genus).
 
 Below is a screenshot of the network and its control widgets:
 
-![](images/diseasecentricpages/crohn_disease_network.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/crohn_disease_network.png)
 
 !!! info "The four main components of the screenshot"
     1. a search widget allows uses to find species or genus of interests in the network; it is also a droplist that allows users to select the species/genus in the network. The plot will center on the node when it is selected.
@@ -125,7 +128,7 @@ Below is a screenshot of the network and its control widgets:
 
 ## :fontawesome-solid-book-open: Association beteen a taxon and a disease
 
-This page shows the distributions of a taxon (at species or genus level)  in samples associated with a specific disease. Here we use the [association between <b><i>[Ruminococcus] torques</i></b> and <code>Crohn Disease </code> :octicons-link-16:](https://gmrepo.humangut.info/phenotypes/D003424/33039) as an example to explain the contents and organization of this page.
+This page shows the distributions of a taxon (at species or genus level)  in samples associated with a specific disease. Here we use the [association between <b><i>[Ruminococcus] torques</i></b> and <code>Crohn Disease </code>](https://gmrepo.humangut.info/phenotypes/D003424/33039) as an example to explain the contents and organization of this page.
 
 This page consists of four secdtions:
 
@@ -153,11 +156,11 @@ This part includes two plots,
 
 <b>a histogram</b>
 
-![](images/diseasecentricpages/phenotype_details_histogram.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotype_details_histogram.png)
 
 and <b>a box plot</b>
 
-![](images/diseasecentricpages/phenotype_details_boxplot.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotype_details_boxplot.png)
 
 showing the distribution of the relative abundances across Crohn Disease associated samples.
 
@@ -168,7 +171,7 @@ showing the distribution of the relative abundances across Crohn Disease associa
 
 This part contains a list of <code>Crohn Disease</code> associated samples in which <i>[Ruminococcus] torques</i> can be found. As shown below, in addition to the relative abundance values of <i>[Ruminococcus] torques</i>, meta-data of the samples are also shown, including age, gender and BMI information of the associated patients.
 
-![](images/diseasecentricpages/phenotype_details_taxon_abundances.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotype_details_taxon_abundances.png)
 
 !!! tip
     1. users can download the data as a text file using the "Download data as csv" button above the table;
@@ -178,7 +181,7 @@ This part contains a list of <code>Crohn Disease</code> associated samples in wh
 
 The co-occurred taxa were identified using methods and criteria described in the <b>co-occurrence between two taxa</b> section above.
 
-![](images/diseasecentricpages/phenotype_details_co_taxa.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/diseasecentricpages/phenotype_details_co_taxa.png)
 
 !!! tip
     users can download the data as a text file using the "Download all co-occurred pairs as csv" button below the table.

@@ -2,12 +2,13 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/mycgutdb_document/",
+  base: "/MycobiomeDB_Document/",
+  // 如果要使用github pages，base 的名字要和github repo的名字一样
 
   locales: {
     "/": {
       lang: "en-US",
-      title: "Mycgutdb Document",
+      title: "MycobiomeDB Document",
       description: "A docs demo for Mycgutdb",
     },
     "/zh/": {

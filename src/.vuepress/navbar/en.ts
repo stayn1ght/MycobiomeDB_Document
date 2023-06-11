@@ -2,29 +2,23 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/",
-  { text: "Demo", icon: "discover", link: "/demo/" },
-  {
-    text: "Guide",
-    icon: "creative",
-    prefix: "/guide/",
-    children: [
-      {
-        text: "Bar",
-        icon: "creative",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "more", link: "" }],
-      },
-      {
-        text: "Foo",
-        icon: "config",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "more", link: "" }],
-      },
-    ],
+  { 
+    text: "Materials and Methods",
+    icon: "discover",
+    prefix: "/methods/",
+    link: "/methods/",
   },
   {
-    text: "V2 Docs",
-    icon: "note",
-    link: "https://theme-hope.vuejs.press/",
+    text: "Web Interface",
+    icon: "app",
+    prefix: "/webinterface/",
+    link: "/webinterface/websiteoverview",
+    
+  },
+  {
+    text: "Database Usage",
+    icon: "creative",
+    prefix: "/usage/",
+    link: "/usage/databaseoverview",
   },
 ]);

@@ -1,6 +1,9 @@
+---
+order: 8
+---
 # Data downloads
 
-## Download processed data from <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
+## Download processed data from <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>
 
 |    **File**   |   **Description**                    |
 | ------------- | ------------------------------------ |
@@ -46,7 +49,7 @@ Please consult the [SRA Toolkit documentation](https://trace.ncbi.nlm.nih.gov/Tr
 
 ## Programmable access
 
-<b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> also provides programmable access to most of the database contents through `RESTful APIs`.
+<b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b> also provides programmable access to most of the database contents through `RESTful APIs`.
 
 Below please find example codes for a few languages that we use in our lab; users who are using other languages can either create their own codes following these examples, or contact us for support.
 

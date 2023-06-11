@@ -1,5 +1,6 @@
 ---
 icon: autumn
+order: 1
 ---
 # Data acquisition
 
@@ -7,13 +8,13 @@ icon: autumn
 
 Raw data, including sequences in FASTQ format were obtained from the following public databases:
 
-* [ENA (European Nucleotide Archive)](https://www.ebi.ac.uk/ena/browse){:target="_blank"} at [EBI (European Bioinformatics Institute)](https://www.ebi.ac.uk/){:target="_blank"} of [EMBL (European Molecular Biology Lab)](https://www.embl.de/){:target="_blank"},
-* [SRA (Sequence Read Archive) database](https://www.ncbi.nlm.nih.gov/sra){:target="_blank"} at [NCBI (National Center for Biotechnology Information)](https://www.ncbi.nlm.nih.gov/){:target="_blank"} ,
-* [HMP (Human Microbe Project)](https://www.hmpdacc.org/){:target="_blank"}, and
+* [ENA (European Nucleotide Archive)](https://www.ebi.ac.uk/ena/browse) at [EBI (European Bioinformatics Institute)](https://www.ebi.ac.uk/) of [EMBL (European Molecular Biology Lab)](https://www.embl.de/),
+* [SRA (Sequence Read Archive) database](https://www.ncbi.nlm.nih.gov/sra) at [NCBI (National Center for Biotechnology Information)](https://www.ncbi.nlm.nih.gov/) ,
+* [HMP (Human Microbe Project)](https://www.hmpdacc.org/), and
 * [AGP (American Gut Project) ](http://americangut.org/)
 
 
-Data were downloaded using [enaBrowserTools](https://github.com/enasequence/enaBrowserTools){:target="_blank"} and [SRA-Tools](https://github.com/ncbi/sra-tools){:target="_blank"} facilitated by Aspera (a high-speed data transfer tool).
+Data were downloaded using [enaBrowserTools](https://github.com/enasequence/enaBrowserTools) and [SRA-Tools](https://github.com/ncbi/sra-tools) facilitated by Aspera (a high-speed data transfer tool).
 
 ## Meta data
 

@@ -23,7 +23,7 @@ actions:
 features:
   - title: Main features
     details: overview of our website
-    link: /features/websiteoverview
+    link: /webinterface/websiteoverview
 
   # - title: Markdown Enhance
   #   icon: markdown
@@ -32,7 +32,7 @@ features:
 
   - title: disease markers
     details: disease markers centric page
-    link: /features/diseasemarkerpages
+    link: /webinterface/diseasemarkerpages
 
   - title: Capture the full dynamics of human gut microbes
     details: Capture the full dynamics of the microbes living in the human gut
@@ -46,9 +46,11 @@ copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
-# Welcome to <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
+# Home 默认第一个标题不会显示，具体应该看教程
+# Welcome to <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>
 
-<b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
+
+<b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>
  is a curated database of human gut metagenomes. Please choose a topic on the left navigation panel to continue.
 
 ## Citation
@@ -69,11 +71,11 @@ Added new pages:
 * [phenotype comparisons](https://gmrepo.humangut.info/phenotypes/comparisons), and
 * [marker taxa](https://gmrepo.humangut.info/taxon/markertaxa).
 
-## Aims and features of <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>
+## Aims and features of <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>
 
 ### Capture the full dynamics of human gut microbes
 
-With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>,
+With <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>,
 we aim to capture the full dynamics of the microbes living in the human gut, including their
 
 * abundances and prevalence,
@@ -90,7 +92,7 @@ all of which can be further stratified by using manually curated meta-data:
 
 ### Emphasize on data quality and re-usability
 
-With <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b>,
+With <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>,
 we emphasize on **data quality** and **re-usability** (i.e., availability of the host meta-data).
 We thus:
 
@@ -100,13 +102,13 @@ We thus:
 
 ### Make relevant information easier to find
 
-In order to further facilitate users to find data of interests, we equipped <b><span style="color:darkblue">G</span><span style="color:red">M</span><span style="color:forestgreen">repo</span></b> with
+In order to further facilitate users to find data of interests, we equipped <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b> with
 [a graphical query builder (data selector)](https://gmrepo.humangut.info/home) to help users to create complex and flexible queries with a few clicks. So far the data selector allows users to filter samples and runs by related technical meta data such as <code>experiment type (16S or Metagenomics)</code>, <code>number of sequenced reads</code>, and host- related meta data, including related phenotype (<code>disease or health</code>), <code>age</code>, <code>sex</code>, and <code>BMI (body mass index)</code>. More filters will be added in the future.
 For example, the screenshot below allows users to search for samples (runs) that:
 
 * were taken from healthy individuals with BMI (body mass index) over 25, <code>AND</code>
 * were sequenced by either 16S <code>OR</code> metagenomics.
 
-![](images/index/query_builder_example.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/blob/main/gmrepodocumentation/site/images/index/query_builder_example.png)
 
 See [Use the graphic data selector](usage/graphicquirybuilder.md) for details and more examples.

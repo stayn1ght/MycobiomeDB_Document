@@ -4,37 +4,24 @@ export const enSidebar = sidebar({
   "/": [
     "",
     {
-      icon: "discover",
-      text: "Demo",
-      prefix: "demo/",
-      link: "demo/",
+      icon: "ability",
+      text: "Material and Methods",
+      prefix: "methods/",
+      link: "methods/",
       children: "structure",
     },
     {
-      text: "Docs",
-      icon: "note",
-      prefix: "guide/",
-      children: "structure",
+      text: "Web Interface",
+      prefix: "webinterface/",
+      link: "webinterface/websiteoverview",
+      icon: "discover",
+      children: "structure"
     },
     {
       text: "Usage",
       prefix: "usage/",
-      icon: "config",
-      children: [
-        "figures",
-        "databaseoverview",
-      ]
-    },
-    {
-      text: "Material and Methods",
-      icon: "ability",
-      prefix: "methods/",
-      children: [
-        "figures",
-        "dataacquisition",
-        "dataprocessing",
-        "indepthanalysis",
-      ]
+      icon: "note",
+      children: "structure"
     },
   ],
 });

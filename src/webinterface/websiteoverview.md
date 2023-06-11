@@ -1,3 +1,6 @@
+---
+index: false
+---
 # Website overview
 
 ## The Main / Home page
@@ -17,7 +20,7 @@ A graphic data selector that allows users to construct complex queries to the pr
 
 Below is a screenshot of the selector:
 
-![](../images/index/query_builder_example.png).
+![](https://github.com/evolgeniusteam/gmrepodocumentation/blob/main/gmrepodocumentation/site/images/index/query_builder_example.png).
 
 The search logic is to find <code>runs/samples</code> that are: 
 
@@ -36,7 +39,7 @@ It is fixed to the top so it is placed at the top of windows.
 
 It plays three major roles, navigation and global search. See the screenshot below:
 
-![](images/websiteoverview/header_bar.png)
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/websiteandUI/images/websiteoverview/header_bar.png)
 
 ### 1. Logo
 
