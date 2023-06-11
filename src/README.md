@@ -12,7 +12,7 @@ actions:
   - text: Docs
     link: /guide/
 
-  - text: How to Use MycgutDB 🥵
+  - text: How to Use MycgutDB
     link: /usage/figures
     type: primary
 
