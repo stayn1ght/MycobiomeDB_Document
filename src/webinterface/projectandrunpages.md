@@ -79,7 +79,7 @@ Here are some random examples:
 
 This part provides some basic information regarding a project, including:
 
-* a brief project description obtained from public databases, mostly from [ENA (European Nucleotide Archive) :octicons-link-external-16:](https://www.ebi.ac.uk/ena/browse){:target="_blank"} or [NCBI SRA (Sequence Read Archive) database :octicons-link-external-16:](https://www.ncbi.nlm.nih.gov/sra){:target="_blank"},
+* a brief project description obtained from public databases, mostly from [ENA (European Nucleotide Archive) :octicons-link-external-16:](https://www.ebi.ac.uk/ena/browse) or [NCBI SRA (Sequence Read Archive) database :octicons-link-external-16:](https://www.ncbi.nlm.nih.gov/sra),
 * number of included runs,
 * related publication(s), if available,
 * whether the project is a [:fontawesome-solid-check-double: curated project](https://gmrepo.humangut.info/data/curatedprojects).
@@ -98,7 +98,7 @@ Briefly, microbial markers that show significantly differential abundances betwe
 * or two distinct stages of a disease, e.g., adenoma and CRC
 
 are identified using <code>LEfSe (Linear discriminant analysis effect size)</code>
-[PMID: 21702898  :octicons-link-external-16:](https://www.ncbi.nlm.nih.gov/pubmed/21702898){:target="_blank"}.
+[PMID: 21702898  :octicons-link-external-16:](https://www.ncbi.nlm.nih.gov/pubmed/21702898).
 
 In <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>, markers are identified on per-project basis, thus the analysis results are included in this <code>project details</code> for each project.
 

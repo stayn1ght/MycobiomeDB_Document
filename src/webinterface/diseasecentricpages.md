@@ -147,8 +147,8 @@ This part also contains links to other pages in GMrepo:
 
 and links to external databases, including:
 
-* [NCBI taxonomic database :octicons-link-external-16:](https://gmrepo.humangut.info/species/33039){:target="_blank"}, and 
-* [MVP database for phage and bacterium associations :octicons-link-external-16:](http://mvp.medgenius.info/microbes/33039/[Ruminococcus]%20torques){:target="_blank"} (if there is any).
+* [NCBI taxonomic database :octicons-link-external-16:](https://gmrepo.humangut.info/species/33039), and 
+* [MVP database for phage and bacterium associations :octicons-link-external-16:](http://mvp.medgenius.info/microbes/33039/[Ruminococcus]%20torques) (if there is any).
 
 ### 2. graphical representation of the association
 

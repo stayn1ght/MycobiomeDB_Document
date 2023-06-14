@@ -8,7 +8,23 @@ export const enSidebar = sidebar({
       text: "Material and Methods",
       prefix: "methods/",
       link: "methods/",
-      children: "structure",
+      // children: "structure",
+      children: [
+        {
+          text: "Data acquisition",
+          link: "dataacquisition",
+          icon: "flow",
+        },
+        {
+          text: "Data Processing & QC",
+          link: "dataprocessing",
+          icon: "filter",
+        },
+        {
+          text: "Identification of disease markers",
+          link: "indepthanalysis",
+        }
+      ]
     },
     {
       text: "Web Interface",
@@ -20,7 +36,7 @@ export const enSidebar = sidebar({
     {
       text: "Usage",
       prefix: "usage/",
-      icon: "note",
+      icon: "guide",
       children: "structure"
     },
   ],

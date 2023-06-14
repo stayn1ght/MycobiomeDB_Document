@@ -1,4 +1,5 @@
 ---
+title: Identification of disease markers in curated projects
 order: 3
 ---
 # Identification of disease markers in curated projects
@@ -20,7 +21,7 @@ Marker identification was performed for <code>selected projects</code> referred 
 
 A <code>marker taxon</code> refers to a genus or species that showed significantly differential abundances between two different groups (e.g., cases vs. controls or different disease stages such as adenoma vs. CRC) using 
 <code>LEfSe (Linear discriminant analysis effect size)</code>
-[PMID: 21702898  :octicons-link-external-16:](https://www.ncbi.nlm.nih.gov/pubmed/21702898){:target="_blank"}.
+[PMID: 21702898](https://www.ncbi.nlm.nih.gov/pubmed/21702898){:target="_blank"}.
 
 Marker taxa were identified on a per-project basis. 
 
