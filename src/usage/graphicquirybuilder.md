@@ -3,7 +3,7 @@ order: 2
 ---
 # Use the graphic data selector
 
-<b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b> is equipped with **two graphical data selectors** to allow users to quickly build complex queries to find **projects** and **runs** of interests; see below:
+<b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b> is equipped with **two graphical data selectors** to allow users to quickly build complex queries to find **projects** and **runs** of interests; see below:
 
 ![](https://github.com/evolgeniusteam/gmrepodocumentation/blob/main/gmrepodocumentation/site/images/index/query_builder_example.png)
 
