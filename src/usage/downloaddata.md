@@ -3,7 +3,7 @@ order: 8
 ---
 # Data downloads
 
-## Download processed data from <b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b>
+## Download processed data from <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>
 
 |    **File**   |   **Description**                    |
 | ------------- | ------------------------------------ |
@@ -30,31 +30,31 @@ order: 8
 
 Due to limited hardware capacity we do not offer downloading raw sequence data directly from our database.
 
-Instead, users should download the raw sequence reads from public databases such as [SRA (Sequence Read Archive) database](https://www.ncbi.nlm.nih.gov/sra){:target="_blank"} at NCBI (National Center for Biotechnology Information).
+Instead, users should download the raw sequence reads from public databases such as [SRA (Sequence Read Archive) database](https://www.ncbi.nlm.nih.gov/sra) at NCBI (National Center for Biotechnology Information).
 
-To do so, users can either copy & paste the run ID of interest to the "Search" box of [SRA (Sequence Read Archive) database](https://www.ncbi.nlm.nih.gov/sra){:target="_blank"}, go to the web page for the run, and use the download links provided at the SRA web page to download the raw sequence data.
+To do so, users can either copy & paste the run ID of interest to the "Search" box of [SRA (Sequence Read Archive) database](https://www.ncbi.nlm.nih.gov/sra), go to the web page for the run, and use the download links provided at the SRA web page to download the raw sequence data.
 or use the "linkout" icon usually available for each run ID in our database to go directly to the corresponding SRA web page.
 
-Alternatively, users can use command line tools in the [SRA Tookit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software){:target="_blank"} to download raw data of various formats from [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra){:target="_blank"}. Commonly used tools include:
+Alternatively, users can use command line tools in the [SRA Tookit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=software) to download raw data of various formats from [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra). Commonly used tools include:
 
-* [fastq-dump](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=fastq-dump){:target="_blank"}: download SRA data to local directory. Usage:
+* [fastq-dump](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=fastq-dump): download SRA data to local directory. Usage:
 
 `fastq-dump [options] <run_accesion_id>`
 
-* [prefetch](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=prefetch){:target="_blank"} : download SRA, dbGaP and ADSP data. Usage:
+* [prefetch](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=prefetch) : download SRA, dbGaP and ADSP data. Usage:
 
 `prefetch [options] <run_accesion_id>`
 
-Please consult the [SRA Toolkit documentation](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc){:target="_blank"} for more details.
+Please consult the [SRA Toolkit documentation](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc) for more details.
 
 ## Programmable access
 
-<b><span style="color:darkblue">M</span><span style="color:red">ycobiome</span><span style="color:forestgreen">DB</span></b> also provides programmable access to most of the database contents through `RESTful APIs`.
+<b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b> also provides programmable access to most of the database contents through `RESTful APIs`.
 
 Below please find example codes for a few languages that we use in our lab; users who are using other languages can either create their own codes following these examples, or contact us for support.
 
-* [R](https://github.com/evolgeniusteam/GMrepoProgrammableAccess/blob/master/programmable-access/R.md){:target="_blank"}
-* [Perl](https://github.com/evolgeniusteam/GMrepoProgrammableAccess/blob/master/programmable-access/perl.md){:target="_blank"}
-* [Python (2&3)](https://github.com/evolgeniusteam/GMrepoProgrammableAccess/blob/master/programmable-access/python.md){:target="_blank"}
+* [R](https://github.com/evolgeniusteam/GMrepoProgrammableAccess/blob/master/programmable-access/R.md)
+* [Perl](https://github.com/evolgeniusteam/GMrepoProgrammableAccess/blob/master/programmable-access/perl.md)
+* [Python (2&3)](https://github.com/evolgeniusteam/GMrepoProgrammableAccess/blob/master/programmable-access/python.md)
 
-See our [GitHub page](https://github.com/evolgeniusteam/GMrepoProgrammableAccess){:target="_blank"}  for details.
+See our [GitHub page](https://github.com/evolgeniusteam/GMrepoProgrammableAccess)  for details.

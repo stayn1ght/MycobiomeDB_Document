@@ -40,21 +40,26 @@ The resulting graphical selector and the query logic are shown below:
 
 ## Examples
 
-!!! example "get runs with colonic diseases"
-    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample2.png)
+::: tip get runs with colonic diseases
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample2.png)
+:::
 
-!!! example "get runs from American with no recent antibiotic usage"
-    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample3.png)
+::: tip get runs from American with no recent antibiotic usage
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbexample3.png)
+:::
 
 Data selector examples for projects:
 
-!!! example "get projects contain both CRC patients and healthy controls"
-    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj1.png)
+::: tip get projects contain both CRC patients and healthy controls
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj1.png)
+:::
 
-!!! example "get projects contain both Bipolar patients and healthy controls, with no failed runs"
-    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj2.png)
+::: tip get projects contain both Bipolar patients and healthy controls, with no failed runs
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj2.png)
+:::
 
-!!! example "get projects contain more than 200 Diarrhea patients"
-    ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj3.png)
+::: tip get projects contain more than 200 Diarrhea patients
+![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/dataselectors/qbprj3.png)
+:::
 
 More examples will be added in the future.

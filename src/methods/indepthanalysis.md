@@ -1,5 +1,5 @@
 ---
-title: Identification of disease markers in curated projects
+shortTitle: Identification of disease markers
 order: 3
 ---
 # Identification of disease markers in curated projects

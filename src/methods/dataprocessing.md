@@ -1,6 +1,5 @@
 ---
-title: Data processing and quality control
-description: Data processing and quality control
+shortTitle: Data processing & QC
 order: 2
 ---
 # Data processing and quality control

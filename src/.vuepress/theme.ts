@@ -29,7 +29,7 @@ export default hopeTheme({
       footer: "Default footer",
 
       displayFooter: true,
-      
+
       editLink: false,
       metaLocales: {
         editLink: "Edit this page on GitHub",
@@ -78,6 +78,7 @@ export default hopeTheme({
       attrs: true,
       chart: true,
       codetabs: true,
+      container: true,
       demo: true,
       echarts: true,
       figure: true,
@@ -113,6 +114,7 @@ export default hopeTheme({
       tabs: true,
       vPre: true,
       vuePlayground: true,
+
     },
 
     // uncomment these if you want a pwa

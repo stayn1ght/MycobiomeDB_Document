@@ -1,5 +1,5 @@
 ---
-shortTitle: Find a run/sample of insterests
+shortTitle: Find runs/samples
 order: 4
 ---
 # find a run (sample) or runs (samples) of interest
@@ -22,12 +22,13 @@ Possible hits will be shown automatically in a dropdown list when users enter th
 
 Users can then select any item from the list, and to the `run/sample` of interest. 
 
-!!! tip
-    Valid search term include:
+::: tip
+Valid search term include:
 
-    * NCBI/ENA run/sample ID, for example `ERR111`
+* NCBI/ENA run/sample ID, for example `ERR111`
+:::
 
-!!! note
-
-    * the search is automatic, so there is no need to press the <code>enter</code> key or click the :fontawesome-solid-search: icon;
-    * <code>nothing will be shown</code> if no search results can be found in our database.
+::: note
+* the search is automatic, so there is no need to press the <code>enter</code> key or click the :fontawesome-solid-search: icon;
+* <code>nothing will be shown</code> if no search results can be found in our database.
+:::

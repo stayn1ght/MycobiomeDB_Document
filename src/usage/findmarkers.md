@@ -18,18 +18,20 @@ Possible hits will be shown automatically in a dropdown list when users enter th
 
 Those marked as `marker taxon` at the end are `marker taxa`. Users can then select any item from the list, and to the `marker taxon` of interest. 
 
-!!! note
+::: note
     * the search is automatic, so there is no need to press the <code>enter</code> key or click the :fontawesome-solid-search: icon;
     * <code>nothing will be shown</code> if no search results can be found in our database.
+:::
 
-## 2. Search in the [Marker taxa :octicons-link-16:](https://gmrepo.humangut.info/taxon/markertaxa) webpage
+## 2. Search in the [Marker taxa :octicons-link-16:](https://mycobiome.humangut.info/taxon/markertaxa) webpage
 
-Users can first go to the [Marker taxa :octicons-link-16:](https://gmrepo.humangut.info/taxon/markertaxa), and search in the <code>Species</code> or <code>Genus</code> tables:
+Users can first go to the [Marker taxa :octicons-link-16:](https://mycobiome.humangut.info/taxon/markertaxa), and search in the <code>Species</code> or <code>Genus</code> tables:
 
 ![](https://github.com/evolgeniusteam/gmrepodocumentation/tree/gh-pages/usage/images/finder/findmarkertaxon.png){ width=100% }
 
-!!! tip
+::: tip
     Valid search term include:
 
     * scientific name, for example `fusobacterium`
     * NCBI taxonomic ID, for example `851`
+:::
