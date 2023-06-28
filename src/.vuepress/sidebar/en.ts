@@ -17,12 +17,12 @@ export const enSidebar = sidebar({
       icon: "app",
       children: "structure"
     },
-    {
+    /* {
       text: "Usage",
       prefix: "usage",
       link: "usage/databaseoverview",
       icon: "guide",
       children: "structure"
-    },
+    }, */
   ],
 });

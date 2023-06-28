@@ -2,17 +2,18 @@
 home: true
 icon: home
 title: Home
-heroImage: /logo.svg
+heroImage: /assets/logo.svg
 heroText: "MycobiomeDB"
 tagline: A Curated Database for Human Gut Mycobiome and Disease Marker Discoveries
 actions:
 
-  - text: How to Use MycobiomeDB 💡
-    link: /usage/databaseoverview
-    type: primary
+  # - text: How to Use MycobiomeDB 💡
+  #   link: /usage/databaseoverview
+  #   type: primary
 
   - text: Materials and Methods ⛏️
     link: /methods/
+    type: primary
 
   - text: User friendly web interface 🌈
     link: /webinterface/websiteoverview
@@ -44,8 +45,8 @@ footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePr
 # Welcome to <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>
 
 
-<b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>
- is a curated database of human gut metagenomes. Please choose a topic on the left navigation panel to continue.
+<!-- <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>
+ is a curated database of human gut mycobiome. -->
 
 <!-- ## Citation
 
@@ -85,7 +86,7 @@ We thus:
 * applied vigorous quality control (QC) methods and stringent criteria to the data, in order to include only high quality data, but nonetheless kept the meta-data of the samples and runs in our database.
 
 
-### Make relevant information easier to find
+<!-- ### Make relevant information easier to find
 
 In order to further facilitate users to find data of interests, we equipped <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b> with
 [a graphical query builder (data selector)](https://mycobiome.humangut.info/#/home) to help users to create complex and flexible queries with a few clicks. So far the data selector allows users to filter samples and runs by related technical meta data such as <code>experiment type (16S or Metagenomics)</code>, <code>number of sequenced reads</code>, and host- related meta data, including related phenotype (<code>disease or health</code>), <code>age</code>, <code>sex</code>, and <code>BMI (body mass index)</code>. More filters will be added in the future.
@@ -96,4 +97,4 @@ For example, the screenshot below allows users to search for samples (runs) that
 
 ![](/assets/images/index/query_builder_example.png)
 
-See [Use the graphic data selector](usage/graphicquirybuilder.md) for details and more examples.
+See [Use the graphic data selector](usage/graphicquirybuilder.md) for details and more examples. -->

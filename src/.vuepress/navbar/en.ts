@@ -15,10 +15,10 @@ export const enNavbar = navbar([
     link: "/webinterface/websiteoverview",
 
   },
-  {
+  /* {
     text: "Database Usage",
     icon: "guide",
     prefix: "/usage/",
     link: "/usage/databaseoverview",
-  },
+  }, */
 ]);

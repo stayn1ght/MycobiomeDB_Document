@@ -69,7 +69,9 @@ export default hopeTheme({
   plugins: {
     comment: {
       provider: "Waline",
-      serverURL: "documentation-api-vercel-imi0papym-mingyuwangg-gmailcom.vercel.app",
+      serverURL: "https://documentation-api-vercel-cfi041qd0-mingyuwangg-gmailcom.vercel.app/",
+      lang: "en-US",
+      commentSorting: "hottest"
     },
 
     // all features are enabled for demo, only preserve features you need here
