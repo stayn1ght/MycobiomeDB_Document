@@ -15,7 +15,7 @@ export const enSidebar = sidebar({
       prefix: "webinterface/",
       link: "webinterface/websiteoverview",
       icon: "app",
-      children: "structure"
+      // children: "structure"
     },
     /* {
       text: "Usage",

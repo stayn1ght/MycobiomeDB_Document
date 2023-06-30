@@ -25,17 +25,18 @@ features:
   #   icon: markdown
   #   details: Add align, sup/sub script, footnote, tasklist, tex, flowchart, diagram, mark and presentation support in markdown
   #   link: https://theme-hope.vuejs.press/guide/markdown/
-
-  - title: Capture the full dynamics of human gut microbes
-    details:
-    link: /#capture-the-full-dynamics-of-human-gut-microbes
-
   - title: Emphasize on data quality and re-usability
     details:
     link: /#emphasize-on-data-quality-and-re-usability
 
-  - title: Make relevant information easier to find
-    link: /#make-relevant-information-easier-to-find
+  - title: Gain a comprehensive understanding of the human gut mycobiome
+    details:
+    link: /#gain-a-comprehensive-understanding-of-the-human-gut-mycobiome
+
+
+
+  # - title: Make relevant information easier to find
+  #   link: /#make-relevant-information-easier-to-find
 
 copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
@@ -58,23 +59,6 @@ Please cite our latest publication if you find this resource useful:
 
 ## Aims and features of <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>
 
-### Capture the full dynamics of human gut microbes
-
-With <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>,
-we aim to capture the full dynamics of the microbes living in the human gut, including their
-
-* abundances and prevalence,
-* associations with [human health and diseases](https://mycobiome.humangut.info/phenotypes) , and
-* co-occurrences,
-
-all of which can be further stratified by using manually curated meta-data:
-
-* population (country),
-* gender,
-* age,
-* body mass index, and
-* many other available meta data.
-
 ### Emphasize on data quality and re-usability
 
 With <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>,
@@ -83,7 +67,26 @@ We thus:
 
 * manually extracted and curated relevant meta-data (most of the time with difficulties) from public databases and related publications;
 * consistently re-annotated all data using state-of-the-art methods (see the [Materials and methods](methods/dataprocessing.md) page for details);
-* applied vigorous quality control (QC) methods and stringent criteria to the data, in order to include only high quality data, but nonetheless kept the meta-data of the samples and runs in our database.
+* applied stringent quality control (QC) procedure  to the data, in order to include only high quality data.
+
+
+### Gain a comprehensive understanding of the human gut mycobiome
+
+With <b><span style="color:darkblue">Mycobiome</span><span style="color:forestgreen">DB</span></b>,
+we aim to gain a comprehensive understanding of the mycobiome community in the human gut, including their
+
+
+* abundances and prevalence,
+* co-occurrences between each other, and
+* associations with [human diseases](http://mycobiome.humangut.info/phenotypes), 
+
+all of which can be further stratified by using manually curated meta-data:
+
+* population (country),
+* gender,
+* age, and
+* many other available meta data.
+
 
 
 <!-- ### Make relevant information easier to find

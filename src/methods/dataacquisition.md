@@ -17,7 +17,7 @@ Data were downloaded using [enaBrowserTools](https://github.com/enasequence/enaB
 
 ## Meta data
 
-Meta-data were first extracted using in-house Perl/R/Python scripts and then manually curated at least two-rounds to ensure the quality. Meta-data curation was not painless because sometimes such information were often incomplete, misplaced or even completely missing. Very often we had to consult the description of the samples, supplementary data of related publications or sometimes even the authors.
+Meta-data were manually curated and checked at least two-rounds to ensure the quality. Meta-data curation was not painless because sometimes such information were often incomplete, misplaced or even completely missing. Very often we had to consult the description of the samples, supplementary data of related publications.
 
 Technical meta-data extracted include:
 
@@ -26,10 +26,10 @@ Technical meta-data extracted include:
 
 Host-related, biological-relevant meta-data extracted include:
 
-* disease or health of the host (refered as to <code>disease</code> in our database),
+* disease or health status of the host,
 * age,
-* sex,
-* BMI (body mass index), and
+* sex, 
+* BMI, and
 * antibiotic usage (within six months).
 
 More meta-data will be added in the future.

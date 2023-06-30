@@ -19,8 +19,10 @@ git commit -m 'deploy'
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
-git remote add origin https://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@github.com/stayn1ght/MycobiomeDB_Document
+# git remote add origin https://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@github.com/stayn1ght/MycobiomeDB_Document
+
+git remote add origin https://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@github.com/stayn1ght/MycobiomeDB_Document
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f origin master:gh-pages
 
-cd -
+cd ../../..
